@@ -1,4 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>shiron-dev/renovate-config"]
+  "extends": [
+    "github>shiron-dev/renovate-config"
+  ],
+  "ignoreDeps": [
+    "macauley/action-homebrew-bump-cask"
+  ]
 }
