@@ -5,5 +5,15 @@
   ],
   "ignoreDeps": [
     "macauley/action-homebrew-bump-cask"
-  ]
+  ],
+  "github-actions": {
+    "packageRules": [
+      {
+        "matchPackageNames": [
+          "Homebrew/actions/**"
+        ],
+        "automerge": true
+      }
+    ]
+  }
 }
