@@ -10,7 +10,7 @@
     "packageRules": [
       {
         "matchPackageNames": [
-          "Homebrew/actions/**"
+          "Homebrew/actions"
         ],
         "automerge": true
       }
